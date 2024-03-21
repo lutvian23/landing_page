@@ -7,7 +7,7 @@ const Contact = () => {
     const {scrollY} = useViewportScroll()
     const [shouldAnimate, setShouldAnimate] = useState(false)
     scrollY.onChange((latest) => {
-        if(latest >= 948 && latest <= 1500) {
+        if(latest >= 948 && latest <= 1590) {
             setShouldAnimate(true)
         }else{
             setShouldAnimate(false)

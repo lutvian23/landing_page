@@ -35,7 +35,7 @@ useEffect(() => {
         whileHover={{rotate:0}}
         animate={{rotate: shouldAnimate ? 12 : 0, x: shouldAnimate ? 0 : -73, y: shouldAnimate ? 0 : 25}}
         transition={{duration: 0.1, ease: 'easeInOut', delay: 0.2}}
-        className='ml-36 mb-12 bg-white rotate-12 xl:w-[250px] xl:h-[400px] w-[125px] h-[200px] border-2 border-solid border-black rounded-md hover:scale-110 transition duration-100 hover:z-[4] hover:rotate-0'>
+        className='ml-36 mb-12 bg-white rotate-12 xl:w-[250px] xl:h-[400px] w-[145px] h-[220px] border-2 border-solid border-black rounded-md hover:scale-110 transition duration-100 hover:z-[4] hover:rotate-0'>
         <div className='relative rounded-md h-[90%]'>
             <Image
             src={Lapangan1}
@@ -51,7 +51,7 @@ useEffect(() => {
         whileHover={{rotate:0}}
         animate={{rotate: shouldAnimate ? -12 : 0, x: shouldAnimate ? 0 : 73, y: shouldAnimate ? 0 : 25}}
         transition={{duration: 0.1, ease: 'easeInOut', delay: 0.2}}
-        className='mr-36 mb-12 absolute bg-white -rotate-12 xl:w-[250px] xl:h-[400px] w-[125px] h-[200px] border-2 border-solid border-black rounded-md hover:scale-110 transition duration-100 hover:z-[4] hover:rotate-0'>
+        className='mr-36 mb-12 absolute bg-white -rotate-12 xl:w-[250px] xl:h-[400px] w-[145px] h-[220px] border-2 border-solid border-black rounded-md hover:scale-110 transition duration-100 hover:z-[4] hover:rotate-0'>
         <div className='relative rounded-md h-[90%]'>
             <Image
             src={Lapangan2}
@@ -63,7 +63,7 @@ useEffect(() => {
         </div>
         </motion.div>
         {/* card-2 */}
-        <div className='absolute bg-white xl:w-[250px] xl:h-[400px] w-[125px] h-[200px] border-2 border-solid border-black rounded-md'>
+        <div className='absolute bg-white xl:w-[250px] xl:h-[400px] w-[145px] h-[220px] border-2 border-solid border-black rounded-md'>
         <div className='relative rounded-md h-[90%]'>
             <Image
             src={Lapangan3}
