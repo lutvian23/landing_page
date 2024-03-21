@@ -8,7 +8,7 @@ const Profile = () => {
   const animationProfile = useTransform(scrollY,[0,675],[300,0])
   const [shouldAnimate, setShouldAnimate] = useState(false)
   scrollY.onChange((latest) => {
-    if(latest >= 675 && latest <= 760) {
+    if(latest >= 675 && latest <= 850) {
       setShouldAnimate(true)
     }else{
       setShouldAnimate(false)
